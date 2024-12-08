@@ -1,0 +1,65 @@
+class DaftarNilaiMahasiswa:
+    def __init__(self):
+        self.daftar_nilai = []
+
+    def tambah(self, nama, nilai):
+        """Menambahkan data mahasiswa ke dalam daftar."""
+        self.daftar_nilai.append({'nama': nama, 'nilai': nilai})
+        print(f"Data {nama} dengan nilai {nilai} berhasil ditambahkan.")
+
+    def tampilkan(self):
+        """Menampilkan semua data mahasiswa."""
+        if not self.daftar_nilai:
+            print("Daftar nilai mahasiswa kosong.")
+            return
+        
+        print("Daftar Nilai Mahasiswa:")
+        for index, data in enumerate(self.daftar_nilai, start=1):
+            print(f"{index}. Nama: {data['nama']}, Nilai: {data['nilai']}")
+
+    def hapus(self, nama):
+        """Menghapus data mahasiswa berdasarkan nama."""
+        for data in self.daftar_nilai:
+            if data['nama'] == nama:
+                self.daftar_nilai.remove(data)
+                print(f"Data {nama} berhasil dihapus.")
+                return
+        print(f"Data dengan nama {nama} tidak ditemukan.")
+
+    def ubah(self, nama, nilai_baru):
+        """Mengubah data mahasiswa berdasarkan nama."""
+        for data in self.daftar_nilai:
+            if data['nama'] == nama:
+                data['nilai'] = nilai_baru
+                print(f"Data {nama} berhasil diubah menjadi nilai {nilai_baru}.")
+                return
+        print(f"Data dengan nama {nama} tidak ditemukan.")
+
+# Contoh penggunaan
+if __name__ == "__main__":
+    daftar_nilai = DaftarNilaiMahasiswa()
+    
+    # Menambahkan data
+    daftar_nilai.tambah("Miftah", 85)
+    daftar_nilai.tambah("Rahmat", 90)
+    daftar_nilai.tambah("Alfin", 84)
+    daftar_nilai.tambah("wildan", 87)
+    daftar_nilai.tambah("April", 89)
+    daftar_nilai.tambah("Adel", 85)
+    daftar_nilai.tambah("Adrian", 82)
+    
+    # Menampilkan data
+    daftar_nilai.tampilkan()
+    
+    # Mengubah data
+    daftar_nilai.ubah("Miftah", 95)
+    daftar_nilai.ubah("Alfin", 90)
+    
+    # Menampilkan data setelah pengubahan
+    daftar_nilai.tampilkan()
+    
+    # Menghapus data
+    daftar_nilai.hapus("Adrian")
+    
+    # Menampilkan data setelah penghapusan
+    daftar_nilai.tampilkan()
