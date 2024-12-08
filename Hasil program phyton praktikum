@@ -1,0 +1,38 @@
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:/Users/user/Documents/kuliah upb/Sem 3/Program Komputer/Pertemuan 12/Praktikum pertemuan 12.py 
+Data Miftah dengan nilai 85 berhasil ditambahkan.
+Data Rahmat dengan nilai 90 berhasil ditambahkan.
+Data Alfin dengan nilai 84 berhasil ditambahkan.
+Data wildan dengan nilai 87 berhasil ditambahkan.
+Data April dengan nilai 89 berhasil ditambahkan.
+Data Adel dengan nilai 85 berhasil ditambahkan.
+Data Adrian dengan nilai 82 berhasil ditambahkan.
+Daftar Nilai Mahasiswa:
+1. Nama: Miftah, Nilai: 85
+2. Nama: Rahmat, Nilai: 90
+3. Nama: Alfin, Nilai: 84
+4. Nama: wildan, Nilai: 87
+5. Nama: April, Nilai: 89
+6. Nama: Adel, Nilai: 85
+7. Nama: Adrian, Nilai: 82
+Data Miftah berhasil diubah menjadi nilai 95.
+Data Alfin berhasil diubah menjadi nilai 90.
+Daftar Nilai Mahasiswa:
+1. Nama: Miftah, Nilai: 95
+2. Nama: Rahmat, Nilai: 90
+3. Nama: Alfin, Nilai: 90
+4. Nama: wildan, Nilai: 87
+5. Nama: April, Nilai: 89
+6. Nama: Adel, Nilai: 85
+7. Nama: Adrian, Nilai: 82
+Data Adrian berhasil dihapus.
+Daftar Nilai Mahasiswa:
+1. Nama: Miftah, Nilai: 95
+2. Nama: Rahmat, Nilai: 90
+3. Nama: Alfin, Nilai: 90
+4. Nama: wildan, Nilai: 87
+5. Nama: April, Nilai: 89
+6. Nama: Adel, Nilai: 85
+>>> 
