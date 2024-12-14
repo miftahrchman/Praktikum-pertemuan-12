@@ -66,6 +66,9 @@ Method dalam Class
             
 #DIAGRAM CLASS
 
+![image](https://github.com/user-attachments/assets/6e486a44-d2fd-4f7b-97da-2a26e4f8e04b)
+
+
 #FLOWCHART
 
 ![image](https://github.com/user-attachments/assets/b0cd7eb4-e48c-49b7-89a8-f74c01d17666)
